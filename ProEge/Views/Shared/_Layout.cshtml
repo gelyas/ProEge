@@ -1,0 +1,28 @@
+﻿@using System.Web.Optimization;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    @*<link rel="stylesheet" href="~/Content/Site.css" />*@
+    <link href="@Url.Content("~/css/Home.css")" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+        <div class="menu_back navbar">
+            <a href="#home" class="logo">EGE-online</a>
+
+            <div class="menu_link">
+                <a href="#home">Домашняя</a>
+                <a href="#home">Банк заданий</a>
+                <a href="#home">Статистика</a>
+            </div>
+           
+        </div>
+        <div class="">
+
+        </div>
+   
+    @RenderBody()
+</body>
+</html>
