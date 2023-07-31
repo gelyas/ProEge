@@ -1,54 +1,58 @@
 ﻿body {
     font-size: 13px;
-    font-family: Verdana, Arial, Helvetica, Sans-Serif;
+    font-family: /*Verdana, */ Arial /*, Helvetica, Sans-Serif*/;
     /*background-color: red;*/
-    background-image: url(../css/background.jpg);
-    background-size: 100% auto;
-    margin: 0;
-    color: green;
+    /*background-image: url(../css/background.jpg));*/
+    background: #fff url(../css/background.jpg) left top no-repeat;
+    /*background-image: url(../css/background.jpg), url(../img/2background.jpg);*/
+    /*background: url(../css/background.jpg), linear-gradient(#fff, #fff) );*/
+    /*background-position: left top, right bottom;*/
+    /*background-colot: green;*/
+    /*background-color: url(../img/brain.png);*/
+    /*background-repeat: no-repeat, repeat;*/
+    /*background-size: auto, auto, cover;*/
+    background-size: contain;
+    margin: 1%;
+    color: floralwhite;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+body_content {
+}
+
+.header {
+    /*display: block;*/
+    /*position: fixed;*/
+    top: 0;
+    padding-top: 10px;
+    /*padding-left: 10px;*/
+    height: 90px;
+    width: 100vw;
 }
 
 .menu_back {
+    opacity: 0.7;
     overflow: hidden;
-    background-color: #333;
-    padding: 11px 16px;
+    /*background-color: #1b191a;*/
+    /*padding: 1px 1px 1px 1px;*/
+    padding-left: 0;
+    display: block;
 }
 
 .logo {
     display: block;
     margin-left: 10%;
+    /*margin-left: 10%;*/
     /*text-decoration: none;*/
-    font-size: 20px;
+    font-size: 25px;
     text-transform: capitalize;
     letter-spacing: .5px;
     color: #ffffff;
 }
 
-
-
-
-/*.navbar {
-    margin: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding-left: 60%;
-}*/
-
-/* .navbar a {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        text-decoration: none;
-        font-size: 17px;
-    }*/
-
 .navbar a:hover {
-    /*background: #ddd;*/
-    color: blue;
+    color: #2fb6ef;
 }
 
 .navbar a {
@@ -68,13 +72,47 @@
 
     .menu_link a {
         padding-left: 15px;
-        font-size: 17px;
+        padding-right: 15px;
+        font-size: 20px;
     }
 
         .menu_link a:hover {
             padding-left: 15px;
-            font-size: 17px;
+            font-size: 20px;
             /*background: #ddd;*/
         }
 
 
+        /*Потом разблокировать, как пропишу привествие*/
+.quote {
+    margin: 32% 10% 10% 10%;
+    padding: 5% 2% 2% 2%;
+    margin-left:150px ;
+    padding-top: 1px;
+    color: black;
+    font-size: 18px;
+    /*background-color: white;*/
+}
+
+    .quote h1 {
+        line-height: 0.50;
+    }
+
+    .quote h2 {
+        line-height: 1;
+    }
+
+    .quote a {
+        line-height: 0.3;
+        font-size: 25px;
+    }
+
+/*.quote_brain {
+    image: url(../img/brain.png);*/
+    /*background-image: url(../img/money.png);
+    background-image: url(../img/stopwatch.png);*/
+/*}*/
+
+.hello {
+    background: #2fb6ef;
+}
