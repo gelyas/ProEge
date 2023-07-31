@@ -10,8 +10,9 @@
     /*background-colot: green;*/
     /*background-color: url(../img/brain.png);*/
     /*background-repeat: no-repeat, repeat;*/
-    /*background-size: auto, auto, cover;*/
-    background-size: contain;
+    /*background-position: bottom right, top left;*/
+    /*background-position: bottom top;*/
+    background-size: 100%;
     margin: 1%;
     color: floralwhite;
     overflow-x: hidden;
@@ -115,4 +116,8 @@ body_content {
 
 .hello {
     background: #2fb6ef;
+}
+
+.background {
+    background-position-y: right top;
 }
